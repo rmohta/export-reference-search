@@ -36,6 +36,6 @@ public class ExportSearchHandler extends AbstractHandler {
 	}
 	
 	protected List<IProject> getOpenProjects() {
-		
+		return null;
 	}
 }
