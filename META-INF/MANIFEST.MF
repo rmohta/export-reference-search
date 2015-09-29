@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Export Reference Search
+Bundle-SymbolicName: com.rohit.export.reference.search;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.export.reference.search.Activator
+Bundle-Vendor: Rohit Mohta
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.core;bundle-version="3.10.2",
+ org.eclipse.core.resources;bundle-version="3.9.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
